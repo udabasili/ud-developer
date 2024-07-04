@@ -35,3 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /Design and Planning
+# Local Netlify folder
+.netlify
