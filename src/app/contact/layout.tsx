@@ -8,10 +8,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: " Contact | UDDeveloper - Expert Web Development Services | Modern & Scalable Solutions",
     description: 'Contact UdDeveloper for professional freelance web development services in the US and Canada. Get in touch with Udendu for modern, responsive websites, custom web solutions, and expert development support. Reach out today to discuss your project and receive a quote.',
-    url: "https://www.udabasili.online/contact",
-    alternates: {
-      canonical: "https://www.udabasili.online/contact"
-    },
     openGraph: {
       title: " Contact | Udendu Portfolio | Expert Freelance Web Developer",
       description: 'Contact UdDeveloper for professional freelance web development services in the US and Canada. Get in touch with Udendu for modern, responsive websites, custom web solutions, and expert development support. Reach out today to discuss your project and receive a quote.',
