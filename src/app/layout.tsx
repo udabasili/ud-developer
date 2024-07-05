@@ -9,17 +9,28 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { AOSInit } from './lib/aos';
 
 export const metadata: Metadata = {
-  title: " Home | UDDeveloper - Expert Web Development Services | Modern & Scalable Solutions",
-  description: `
-      UD Developer offers professional web development services, specializing in modern, scalable solutions. Transforming ideas into high-performance websites and applications. Contact Uddeveloper for a seamless digital experience.
-`,
-  applicationName: 'Next.js',
-  alternates: {
-    canonical: 'https://www.uddeveloper.com/',
-  },
+  title: 'Home | UDDeveloper - Professional Web Development Services in Canada and the US',
+  description: 'UD Developer offers expert freelance web development services to clients in the US and Canada. Specializing in custom websites, e-commerce solutions, SEO optimization, and responsive design.',
+  keywords: [
+    "freelance web developer US Canada",
+    "custom website development",
+    "e-commerce solutions",
+    "SEO optimization",
+    "responsive web design",
+    "front-end development",
+    "back-end development",
+    "WordPress developer",
+    "e-commerce websites",
+    "mobile-friendly websites",
+    "website maintenance services",
+    "hire freelance web developer",
+    "PHP developer",
+    "JavaScript developer",
+    "HTML CSS development",
+    "web application development",
+  ],
   referrer: 'origin-when-cross-origin',
-  keywords: ["Freelance Web Developer Canada", "Freelance Web Developer United States", "JavaScript Developer Canada", "JavaScript Developer United States", "C# Developer Canada", "C# Developer United States", "Java Developer Canada", "Java Developer United States", "Node.js Developer Canada", "Node.js Developer United States"],
-  authors: [{ name: 'Udendu Abasili', url: 'https://www.uddeveloper.com/' }],
+  authors: [{ name: 'Udendu Abasili', url: 'https://www.udabasili.com/' }],
   creator: 'Udendu Abasili',
   publisher: 'Ud Developer',
   formatDetection: {
@@ -38,9 +49,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: ' Home | UDDeveloper - Expert Web Development Services | Modern & Scalable Solutions',
-    description: 'UD Developer offers professional web development services, specializing in modern, scalable solutions. Transforming ideas into high-performance websites and applications. Contact Uddeveloper for a seamless digital experience.',
-    url: 'https://www.uddeveloper.com/',
+    title: 'UdDeveloper - Professional Web Development Services in Canada and the US',
+    description: 'UD Developer offers expert freelance web development services to clients in the US and Canada. Specializing in custom websites, e-commerce solutions, SEO optimization, and responsive design.',
     locale: 'en_US',
     type: 'website',
   },

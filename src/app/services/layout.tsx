@@ -1,26 +1,13 @@
 import { Layout } from '@/components/Layout';
 import Head from 'next/head';
-import { headers } from 'next/headers';
-
-
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-
-
   return {
-    title: " Services | Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US",
-    description: "Udendu Abasili, your expert freelance developer for web and mobile solutions in the US and Canada. Specializing in UI/UX design and SEO optimization, I craft engaging digital experiences that elevate your online presence and drive success. Let's collaborate to turn your vision into reality",
-    url: "https://www.udabasili.online/services",
-    alternates: {
-      canonical: "https://www.udabasili.online/services"
-    },
+    title: " Services | UdDeveloper - Professional Web Development Services in Canada and the US",
+    description: 'Discover the comprehensive web development services offered by UdDeveloper. We specialize in creating modern, responsive, and SEO-friendly websites for businesses in the US and Canada. Partner with Udendu to enhance your online presence with our expert web development solutions tailored to your unique needs.',
     openGraph: {
-      title: " Services | Udendu Portfolio | Expert Freelance Web Developer",
-      description: "Udendu Abasili, your expert freelance developer for web and mobile solutions in the US and Canada. Specializing in UI/UX design and SEO optimization, I craft engaging digital experiences that elevate your online presence and drive success. Let's collaborate to turn your vision into reality",
-      url: "https://www.udabasili.online/services",
-      site_name: "Udendu Portfolio",
-      locale: "en_US",
-      type: "website",
+      title: " Services | UdDeveloper - Professional Web Development Services in Canada and the US",
+      description: 'Discover the comprehensive web development services offered by UdDeveloper. We specialize in creating modern, responsive, and SEO-friendly websites for businesses in the US and Canada. Partner with Udendu to enhance your online presence with our expert web development solutions tailored to your unique needs.',
     },
   }
 }

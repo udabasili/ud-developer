@@ -106,7 +106,6 @@ export const WebDevelopmentCard = styled.div`
 	.title {
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: white;
 		font-family: var(--title);
 		padding-top: 1rem;
 	}
@@ -122,7 +121,7 @@ export const WebDevelopmentCard = styled.div`
 		&:link,
 		&:visited {
 			background-color: var(--primary);
-			color: var(--black);
+			color: #fff;
 			padding: 0.5rem 2rem;
 			border-radius: 0.5rem;
 			text-align: center;
@@ -137,8 +136,8 @@ export const WebDevelopmentCard = styled.div`
 		}
 
 		&:hover {
-			background-color: var(--black);
-			color: var(--white);
+			background-color: #000000;
+			color: #ffffff;
 		}
 
 		&:active {

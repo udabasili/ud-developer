@@ -5,19 +5,11 @@ export async function generateMetadata() {
 
 
   return {
-    title: " Projects | Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US",
-    description: "Udendu Abasili: Your Trusted Freelance Web Developer for US & Canada. With a passion for crafting dynamic, user-centric websites, I bring expertise in JavaScript, C#, Java, Node.js, and more. Let's collaborate to bring your digital vision to life",
-    url: "https://www.udabasili.online/projects",
-    alternates: {
-      canonical: "https://www.udabasili.online/projects"
-    },
+    title: " Projects | UDDeveloper - Professional Web Development Services in Canada and the US",
+    description: "Discover the innovative web development projects by UdDeveloper. We specialize in creating modern, responsive websites for businesses in the US and Canada. View our portfolio and see how we can help elevate your online presence with custom web solutions ",
     openGraph: {
-      title: " Projects | Udendu Portfolio | Expert Freelance Web Developer",
-      description: "Udendu Abasili: Your Trusted Freelance Web Developer for US & Canada. With a passion for crafting dynamic, user-centric websites, I bring expertise in JavaScript, C#, Java, Node.js, and more. Let's collaborate to bring your digital vision to life",
-      url: "https://www.udabasili.online/projects",
-      site_name: "Udendu Portfolio",
-      locale: "en_US",
-      type: "website",
+      title: " Projects | UDDeveloper - Professional Web Development Services in Canada and the US",
+      description: "Discover the innovative web development projects by UdDeveloper. We specialize in creating modern, responsive websites for businesses in the US and Canada. View our portfolio and see how we can help elevate your online presence with custom web solutions ",
     },
   }
 }

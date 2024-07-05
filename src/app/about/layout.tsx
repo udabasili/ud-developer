@@ -3,21 +3,12 @@ import { Layout } from '@/components/Layout';
 export async function generateMetadata({ params }: { params: { slug: string } }) {
 
   return {
-    title: " About | UDDeveloper - Expert Web Development Services | Modern & Scalable Solutions",
-    description: `
-      UDDeveloper offers professional web development services, specializing in modern, scalable solutions. Transforming ideas into high-performance websites and applications. Contact Uddeveloper for a seamless digital experience.
-`,
-    url: "https://www.uddeveloper.com/about",
-    alternates: {
-      canonical: "https://www.uddeveloper.com/about"
-    },
+    title: " About | UdDeveloper - Professional Web Development Services in Canada and the US",
+    description: 'Discover UdDeveloper, your go-to freelance web development business. Specializing in modern, responsive websites, we cater to clients across the US and Canada. Get top-tier web development services from Udendu, your expert developer for custom solutions and online success.',
+
     openGraph: {
       title: " About | UDDeveloper - Expert Web Development Services | Modern & Scalable Solutions",
-      description: "UDDeveloper offers professional web development services, specializing in modern, scalable solutions. Transforming ideas into high-performance websites and applications. Contact Uddeveloper for a seamless digital experience.",
-      url: "https://www.uddeveloper.com/about",
-      site_name: "UDDeveloper",
-      locale: "en_US",
-      type: "website",
+      description: 'Discover UdDeveloper, your go-to freelance web development business. Specializing in modern, responsive websites, we cater to clients across the US and Canada. Get top-tier web development services from Udendu, your expert developer for custom solutions and online success.',
     },
   }
 }
