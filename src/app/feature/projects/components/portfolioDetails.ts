@@ -40,7 +40,7 @@ export const portfolioDetails = [
 		'Problems and Thought Process':
 			'One of the main challenges was ensuring that the custom fields were set up correctly to allow for easy content management by the client. I focused on creating a clear and intuitive admin interface. Another challenge was ensuring the website was fully responsive and accessible. In future projects, I plan to explore more advanced customizations and integrations with third-party services.',
 		'Project Link': 'https://migmawel.org/',
-		'GitHub Link': null,
+		'GitHub Link': '',
 		Video: 'https://github.com/udabasili/ud-developer/assets/33573587/6adb4258-7cf7-489a-b84c-47c41d3dd896',
 		color: '#F1CC59',
 		'Screenshots or animated GIFs': '',
