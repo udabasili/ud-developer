@@ -24,6 +24,28 @@ export const portfolioDetails = [
 			'https://github.com/udabasili/battlefront/assets/33573587/e5a0adaf-5d38-4c96-83e2-ecdccb1bc2fb,https://github.com/udabasili/battlefront/assets/33573587/ae5b86e6-d368-4f24-82d1-08ad0ad77a90',
 	},
 	{
+		'Project name': 'Mi’gmawe’l Tplu’taqnn Incorporated Website Rebuild',
+		Summary:
+			'This project involved rebuilding the Mi’gmawe’l Tplu’taqnn Incorporated website using PHP, WordPress, and custom fields. The goal was to create a user-friendly, visually appealing, and easily manageable website that effectively represents the organization.',
+		'Lesson Learned':
+			'I learned extensively about customizing WordPress sites using PHP and custom fields. This project enhanced my skills in creating dynamic and manageable content, working with various WordPress plugins, and ensuring the website is responsive and accessible.',
+		'Tech Stack': 'PHP, WordPress, Custom Fields',
+		'How to Run':
+			'As there is no GitHub repository or login information provided, the project is managed directly on the WordPress platform. Access can be granted through the WordPress admin dashboard.',
+		'Sample Login Details': null,
+		'Project Purpose and Goal':
+			'The goal of this project was to rebuild the Mi’gmawe’l Tplu’taqnn Incorporated website to better serve its audience by providing clear information, resources, and updates. The project aimed to enhance user engagement and streamline content management.',
+		'Web Stack and Explanation':
+			'I used PHP for the backend to create custom functionalities and WordPress as the CMS for its ease of use and flexibility. Custom fields were implemented to allow for better content organization and management. WordPress was chosen for its extensive plugin ecosystem and user-friendly interface, which enables easy content updates and management by the client.',
+		'Problems and Thought Process':
+			'One of the main challenges was ensuring that the custom fields were set up correctly to allow for easy content management by the client. I focused on creating a clear and intuitive admin interface. Another challenge was ensuring the website was fully responsive and accessible. In future projects, I plan to explore more advanced customizations and integrations with third-party services.',
+		'Project Link': 'https://migmawel.org/',
+		'GitHub Link': null,
+		Video: 'https://github.com/udabasili/ud-developer/assets/33573587/6adb4258-7cf7-489a-b84c-47c41d3dd896',
+		color: '#F1CC59',
+		'Screenshots or animated GIFs': '',
+	},
+	{
 		'Project name': 'Employee Management System',
 		Summary:
 			'This is an Employee Management System built with C#, Windows Forms, Azure, and SQL Server. It allows for CRUD operations on employees and departments, assigning employees to departments, and includes authentication and authorization with two levels of access.',
