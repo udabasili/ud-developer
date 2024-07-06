@@ -22,7 +22,6 @@ export const Project = () => {
         setName(name);
         open();
     }
-
     return (
         <ProjectSection id="apps">
             <>
