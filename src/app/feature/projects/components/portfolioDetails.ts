@@ -31,10 +31,10 @@ export const portfolioDetails = [
 			'I learned extensively about customizing WordPress sites using PHP and custom fields. This project enhanced my skills in creating dynamic and manageable content, working with various WordPress plugins, and ensuring the website is responsive and accessible.',
 		'Tech Stack': 'PHP, WordPress, Custom Fields',
 		'How to Run':
-			'As there is no GitHub repository or login information provided, the project is managed directly on the WordPress platform. Access can be granted through the WordPress admin dashboard.',
+			'As there is no GitHub repository or login information provided, the project is managed directly on the WordPress platform. Access the website link to view the project.',
 		'Sample Login Details': null,
 		'Project Purpose and Goal':
-			'The goal of this project was to rebuild the Mi’gmawe’l Tplu’taqnn Incorporated website to better serve its audience by providing clear information, resources, and updates. The project aimed to enhance user engagement and streamline content management.',
+			'The goal of this project was to rebuild the Mi’gmawe’l Tplu’taqnn Incorporated website to better serve its audience by providing clear information, resources, and updates. The project aimed to enhance user engagement and streamline content management for the organization. Learnings from the previous website were used to improve the new site’s design and functionality and ensure it aligns with the organization’s goals and values. Moreover Elementor editor was removed in favour of writing PHP code and using the default WordPress editor, custom fields were used to manage the content',
 		'Web Stack and Explanation':
 			'I used PHP for the backend to create custom functionalities and WordPress as the CMS for its ease of use and flexibility. Custom fields were implemented to allow for better content organization and management. WordPress was chosen for its extensive plugin ecosystem and user-friendly interface, which enables easy content updates and management by the client.',
 		'Problems and Thought Process':
