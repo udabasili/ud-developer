@@ -1,24 +1,15 @@
 
 "use client"
-import { ParsedUrlQuery } from 'querystring';
-
 import { useEffect } from 'react';
 
 import { CustomPageHeader } from '@/components/Elements/Headers';
 import { portfolioDetails } from '@/feature/projects';
-import { Layout } from '@/components/Layout';
 import { PortfolioDetailsContainer, Summary, Description, MainImage, Goal, WebStack, ThoughtProcess, LessonLearnt } from '@/feature/portfolios-details';
 import { notFound } from 'next/navigation';
 import { Video } from '@/components/Elements';
 
 
 type PortfolioDetail = typeof portfolioDetails[0];
-
-interface CtxCustom extends ParsedUrlQuery {
-    pid: string;
-}
-
-
 
 export default function PortfolioDetail({ params }: { params: { slug: string } }) {
     useEffect(() => {

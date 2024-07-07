@@ -15,7 +15,7 @@ type ProjectCardProps = {
 
 
 export const ProjectCard = (props: ProjectCardProps) => {
-    const { name, imageUrl, index, summary, link, open, github } = props;
+    const { name, index, summary, link } = props;
 
 
     const url = encodeURIComponent(name.toLowerCase());

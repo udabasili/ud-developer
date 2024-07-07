@@ -24,7 +24,7 @@ export const portfolioDetails = [
 			'https://github.com/udabasili/battlefront/assets/33573587/e5a0adaf-5d38-4c96-83e2-ecdccb1bc2fb,https://github.com/udabasili/battlefront/assets/33573587/ae5b86e6-d368-4f24-82d1-08ad0ad77a90',
 	},
 	{
-		'Project name': 'Mi’gmawe’l Tplu’taqnn Incorporated Website Rebuild',
+		'Project name': 'MTI Website Rebuild',
 		Summary:
 			'This project involved rebuilding the Mi’gmawe’l Tplu’taqnn Incorporated website using PHP, WordPress, and custom fields. The goal was to create a user-friendly, visually appealing, and easily manageable website that effectively represents the organization.',
 		'Lesson Learned':
@@ -41,7 +41,7 @@ export const portfolioDetails = [
 			'One of the main challenges was ensuring that the custom fields were set up correctly to allow for easy content management by the client. I focused on creating a clear and intuitive admin interface. Another challenge was ensuring the website was fully responsive and accessible. In future projects, I plan to explore more advanced customizations and integrations with third-party services.',
 		'Project Link': 'https://migmawel.org/',
 		'GitHub Link': '',
-		Video: 'https://github.com/udabasili/ud-developer/assets/33573587/86c32101-3be8-44f8-a7f5-86b1b54e26f5',
+		Video: 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
 		color: '#F1CC59',
 		'Screenshots or animated GIFs': '',
 	},
@@ -163,43 +163,6 @@ https://user-images.githubusercontent.com/33573587/215442051-e0ed11e7-9fac-4e2d-
 		'Screenshots or animated GIFs':
 			'https://user-images.githubusercontent.com/33573587/213103954-8c2738c6-bcb6-48fa-860d-802d4261df7c.png,https://user-images.githubusercontent.com/33573587/213103962-fc64106c-66a2-41b5-aee2-5b2de4ac6394.png,https://user-images.githubusercontent.com/33573587/213103971-47723509-6453-4d1c-9e41-c59073a2a4da.png',
 	},
-	// {
-	//     "Timestamp": "29/06/2021 15:33:07",
-	//     "Project name": "Devine Store",
-	//     "Summary": "This is the blueprint of a clothing store I built for a client. The data used for this application is obviously a sample to demonstrate the structural format of the application, and it simulates everything up to the point of actually making credit card payments",
-	//     "Lesson Learned": "The most important part of the project that I learned from was the integration of Stripe payment. I had to handle the communication with Stripe customer service on behalf of the client and master the integration of the Stripe API to my application",
-	//     "Tech Stack": "React(NextJS), styled-component, CSS Module, Mongoose",
-	//     "How to Run": "Visit the website",
-	//     "Sample Login Details": "Email: james@yahoo.com , Password: 1234567",
-	//     "Project Purpose and Goal": "The client wanted to create a website for their business. It was meant to be simple without the need to have an administration section",
-	//     "Web Stack and Explanation": "I used React JS was used for the Frontend, Express.js for the backend and Mongoose for the database. I chose to use React because of its ease of use and its great state management when incorporated with Redux. Express.js and MongoDB were chosen due to their ease of usage, security and easy incorporation with the React Frontend",
-	//     "Problems and Thought Process": "I started off using  Writemaps and Webflow  for sitemapping and wireframing. Since the format was straightforward, I didn't spend much time on the actual design before transferring it to code. The process from authentication to final checkout is very straightforward, and you don't even need to authenticate to be able to see the list of products. I made use of Next Js due to the benefit of SSR to help SEO and the fact I could write the  backend and frontend under one umbrella",
-	//     "Project Link": "https://devine-store.vercel.app",
-	//     "GitHub Link": "https://github.com/udabasili/devine-store",
-	//     "Screenshots or animated GIFs": "https://user-images.githubusercontent.com/33573587/158959267-cdf9c6a0-b8c6-4b3f-949b-12c55319034f.png,https://user-images.githubusercontent.com/33573587/158959172-a3bb75b0-a7bc-4ff0-bc3b-89904e065680.png,https://user-images.githubusercontent.com/33573587/158959115-4510653e-ef51-48e3-a48c-39350559c5b7.png"
-	// },
-
-	// {
-	// 	Timestamp: '29/06/2021 15:13:44',
-	// 	'Project name': 'Invoicify',
-	// 	Summary:
-	// 		'Invoicify is  the non production ready blueprint of a CMRS i built . It can used to handle invoices, manage project timelines with gantt chart, handle payment of services amongst other things        ',
-	// 	'Lesson Learned':
-	// 		'This project helped solidify my full stack knowledge in relation to optimizing website performance, using tailwind css and styled-component for styling,  handling states and getting real time state updates with swr, route protection, and general application management.',
-	// 	'Tech Stack': 'React, Tailwind CSS, Express Js, Postgres, Sequelize, styled-component',
-	// 	'How to Run': 'Visit the website',
-	// 	'Sample Login Details': 'Email: james@yahoo.com, Password: 1234567',
-	// 	'Project Purpose and Goal':
-	// 		'The goal of this project was to build a CMRS that would be used for handling clients , projects and creating reusable invoices. This is still a project in progress so I would be integrating more features to make it more inclined to web developers. The upcoming features would be the ability to send invoices to client, improve the response time of the application, link the app with github to see code samples of the project etc',
-	// 	'Web Stack and Explanation':
-	// 		'React was the clear choice for this project, because of its ease of state management and the number of packages available. I made use of Firebase and Redux simultaneously, using the react-redux-firebase package to manage the application state and add listeners throughout the app',
-	// 	'Problems and Thought Process': '',
-	// 	'Project Link': 'https://invoicify-client.herokuapp.com/',
-	// 	'GitHub Link': 'https://github.com/udabasili/invoicify',
-	// 	color: '#176534',
-	// 	'Screenshots or animated GIFs':
-	// 		'https://user-images.githubusercontent.com/33573587/159110238-ff564830-98ca-478a-bb7c-34f6df64fc98.png,https://user-images.githubusercontent.com/33573587/159110242-ce55bdf7-8d2b-43bb-8df1-9089f1903246.png,https://user-images.githubusercontent.com/33573587/159110245-89eed196-ad28-4dc5-a700-99bdfe9332a4.png',
-	// },
 
 	{
 		Timestamp: '29/06/2021 15:13:44',
@@ -224,19 +187,4 @@ https://user-images.githubusercontent.com/33573587/215442051-e0ed11e7-9fac-4e2d-
 		'Screenshots or animated GIFs':
 			'https://user-images.githubusercontent.com/33573587/113302683-b4dd7100-92d6-11eb-9846-bf9d19cfd632.png,https://user-images.githubusercontent.com/33573587/113302681-b4dd7100-92d6-11eb-8eef-d611b994cbd6.png,https://user-images.githubusercontent.com/33573587/113302678-b3ac4400-92d6-11eb-99bd-afeb96af633d.png',
 	},
-
-	// {
-	//     "Timestamp": "29/06/2021 15:00:01",
-	//     "Project name": "Web Craftmaster",
-	//     "Summary": "Web craftmaster is a website builder that allows non-developers to customize pre-made templates that they can use to build their own websites that fall under the category of e-Commerce, blogs",
-	//     "Lesson Learned": "This project solidified my React knowledge in relation to handling state management and updating props adequately,  using Context API  to manage global application states, and most importantly making HTML manipulation as user-friendly as possible. I spend a good amount of time making sure I have followed the best practices of state management and data manipulation",
-	//     "Tech Stack": "React, SCSS, Firebase, Context API",
-	//     "How to Run": "You can visit the website",
-	//     "Project Purpose and Goal": "I have always been interested in creating a website builder that would be simple and easy to use. I would keep updating this project to add more customizable options for the users and add more website categories",
-	//     "Web Stack and Explanation": "For this project, I used React because of its ease of use and the ability to smoothly manipulate states without needing to re-render the components each time.  I made use of Context API  to manage global application states and Firebase for storage and authentication due to the ease with which they could be used with React.",
-	//     "Problems and Thought Process": "The main issue that I encountered was how to make elements in the templates editable, and how to download certain components of my app as HTML with the CSS and JavaScript attached. This required complex state management to display the proper HTML and CSS when exporting. I also had to design the templates would be customized as Single page apps to make them easy to use and customize",
-	//     "Project Link": "https://web-craftmaster.netlify.app",
-	//     "GitHub Link": "https://github.com/udabasili/web-craftmaster",
-	//     "Screenshots or animated GIFs": "https://user-images.githubusercontent.com/33573587/123635358-f99f7800-d7f1-11eb-9b0e-43e7d60c3ddf.png,https://user-images.githubusercontent.com/33573587/123635355-f906e180-d7f1-11eb-9a4b-20043161fbc0.png"
-	// },
 ];

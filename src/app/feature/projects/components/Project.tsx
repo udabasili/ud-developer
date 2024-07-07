@@ -29,7 +29,7 @@ export const Project = () => {
                     .filter((_, index) => index < 3)
                     .map((item, index) => (
                         <ProjectCard
-                            key={item.Timestamp}
+                            key={index}
                             summary={item.Summary}
                             name={item['Project name']}
                             imageUrl={imagePaths[index]}

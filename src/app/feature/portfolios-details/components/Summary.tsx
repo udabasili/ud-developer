@@ -27,14 +27,20 @@ export const Summary = ({ technologies = '', github, link }: SummaryProps) => {
 							)}
 						</span>
 					</li>
-					<li className="detail__item">
-						<span className="label">GitHub</span>
-						<span className="value">
-							<a href={github} target="_blank" rel="noopener noreferrer">
-								Code Link
-							</a>
-						</span>
-					</li>
+					{
+						github.length > 0 && (
+							<li className="detail__item">
+								<span className="label">GitHub</span>
+								<span className="value">
+									<a href={github} target="_blank" rel="noopener noreferrer">
+										Code Link
+									</a>
+								</span>
+							</li>
+						)
+
+					}
+
 					<li className="detail__item">
 						<span className="label">Link</span>
 						<span className="value">
