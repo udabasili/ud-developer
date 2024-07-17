@@ -1,15 +1,12 @@
 import { portfolioDetails } from '@/feature/projects/components/portfolioDetails';
-import { ResolvingMetadata, Metadata } from 'next';
+import { Metadata } from 'next';
 
 type Props = {
     params: { slug: string }
-    searchParams: { [key: string]: string | string[] | undefined }
 }
 
 
-export async function generateMetadata({ params, searchParams }: Props,
-    parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 
     let title = "";
@@ -37,7 +34,7 @@ export async function generateMetadata({ params, searchParams }: Props,
 
     return {
         title: `${title} | UdDeveloper - Professional Web Development Services in Canada and the US`,
-
+        description: description,
         openGraph: {
             title: `${title}| Udendu Portfolio | Expert Freelance Web Developer`,
             description: "Udendu Abasili: Your Trusted Freelance Web Developer for US & Canada. With a passion for crafting dynamic, user-centric websites, I bring expertise in JavaScript, C#, Java, Node.js, and more. Let's collaborate to bring your digital vision to life",
