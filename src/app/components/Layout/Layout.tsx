@@ -51,7 +51,7 @@ export const Layout = ({ children }: LayoutProps) => {
     return (
         <Container >
             <Head>
-                <link rel="canonical" href={canonicalUrl} />
+                <meta name="google-site-verification" content="Q6I2zunH3fIN02cU3FO8xbiBQqxBAdsSN8vlrXcSwNs" />
             </Head>
             <MainNavigation ref={ref} />
             <Main>{children}</Main>
