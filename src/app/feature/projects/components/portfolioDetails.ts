@@ -18,7 +18,7 @@ export const portfolioDetails = [
 			'Handling access permissions and ensuring data security was a key challenge. Implementing role-based authentication helped maintain security across different user levels. Future updates will focus on API optimizations and a more user-friendly analytics dashboard.',
 		'Project Link': 'https://work-sphere-app.netlify.app/',
 		'GitHub Link': 'https://github.com/udabasili/WorkSphere',
-		Video: 'https://github.com/user-attachments/assets/6e5e6aa1-3197-40ea-88ec-5191c149f96f',
+		Video: 'https://github-production-user-asset-6210df.s3.amazonaws.com/33573587/416052518-449f7a7b-0814-46af-b414-30b57aa1b93a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250224T172007Z&X-Amz-Expires=300&X-Amz-Signature=6f5f1abb11f1f36b2fa97967b9e42c84ba4aaf0105af5a493019f505e2c9af9e&X-Amz-SignedHeaders=host',
 		color: '#FF5733',
 		'Screenshots or animated GIFs':
 			'https://github.com/user-attachments/assets/6e5e6aa1-3197-40ea-88ec-5191c149f96f',
@@ -83,7 +83,10 @@ export const portfolioDetails = [
 		'Project Link': 'https://migmawel.org/',
 		'GitHub Link': '',
 		Video: 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
-		color: '#F1CC59'
+		color: '#F1CC59',
+		'Screenshots or animated GIFs': "",
+		'Lesson Learned':
+			'This project deepened my understanding of PHP, WordPress, and custom fields, and improved my skills in content management and user experience design.',
 	},
 	{
 		Timestamp: '29/06/2021 15:33:07',
